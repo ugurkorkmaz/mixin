@@ -1,4 +1,4 @@
-module mixin
+module github.com/ugurkorkmaz/mixin
 
 go 1.19
 
