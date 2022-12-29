@@ -1,5 +1,7 @@
 # ugurkorkmaz/mixin for ent orm.
-
+```bash
+go get github.com/ugurkorkmaz/mixin
+```
 ### google uuid mixin
 ```go
 package schema
