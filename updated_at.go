@@ -7,11 +7,12 @@ import (
 	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	"entgo.io/ent/schema/mixin"
 )
 
 // UpdatedAt mixin for the updated_at field.
 type UpdatedAt struct {
-	ent.Mixin
+	mixin.Schema
 }
 
 // Fields of the UpdatedAt mixin.

@@ -5,11 +5,12 @@ import (
 	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	"entgo.io/ent/schema/mixin"
 )
 
 // DeletedAt mixin for the deleted_at field.
 type DeletedAt struct {
-	ent.Mixin
+	mixin.Schema
 }
 
 // Fields of the DeletedAt mixin.

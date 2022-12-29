@@ -7,11 +7,12 @@ import (
 	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	"entgo.io/ent/schema/mixin"
 )
 
 // CreatedAt mixin for the created_at field.
 type CreatedAt struct {
-	ent.Mixin
+	mixin.Schema
 }
 
 // Fields of the CreatedAt mixin.

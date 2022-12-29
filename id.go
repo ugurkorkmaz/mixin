@@ -5,12 +5,13 @@ import (
 	"entgo.io/contrib/entproto"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	"entgo.io/ent/schema/mixin"
 	"github.com/google/uuid"
 )
 
 // UUID is a mixin that adds a UUID field to an entity.
 type Id struct {
-	ent.Mixin
+	mixin.Schema
 }
 
 // Fields of the UUID mixin.
