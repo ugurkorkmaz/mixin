@@ -105,7 +105,7 @@ type User struct {
 // Mixin of the User.
 func (User) Mixin() []ent.Mixin {
 	return []ent.Mixin{
-				mixin.UpdatedAt{},
+		mixin.UpdatedAt{},
 	}
 }
 
