@@ -3,8 +3,8 @@ module github.com/ugurkorkmaz/mixin
 go 1.19
 
 require (
-	entgo.io/contrib v0.3.4
-	entgo.io/ent v0.11.5-0.20221031135557-521f9b57bc3d
+	entgo.io/contrib v0.3.3
+	entgo.io/ent v0.11.4
 	github.com/google/uuid v1.3.0
 )
 
